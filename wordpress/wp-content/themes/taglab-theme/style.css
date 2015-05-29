@@ -8,50 +8,71 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: black, blue, gray, pink, purple, white, yellow, dark, light, two-columns, left-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
 
 */
-h1 {
-	font-size: 20px;
-	font-weight: 400;
-	opacity: 100%;
+
+/* COLOUR GUIDE 
+
+White: #FFF;
+Black: #000;
+Grey: #f2f2f2; *used for backgrounds*
+Medium Grey: #cccccc; *potentially used for buttons* *still testing*
+
+Blue: #0082d4;
+Red: #ff6a63;
+
+Footer Blue: #263542;
+
+*/
+
+
+/* SHADOW GUIDE 
+
+Just for the navigation bar
+box-shadow: 0 0 9px rgba(0,0,0,.12)
+
+For all other boxes (mainly card elements)
+box-shadow: 0 0 9px rgba(0,0,0,.12)
+
+*/
+
+
+
+/* TYPOGRAPHY */
+
+.Title {
+	font-family: Open Sans;
+	text-align: center;
+	left-margin: 1000px;
+	right-margin: 1000px;
 }
 
-h1.bold {
-	font-size: 20px;
-	font-weight: 600;
-	opacity: 100%;
-}
-
-h1 > p{
+.Title h3 {
 	font-size: 45px;
 	font-weight: 300;
-	line-height: 48px;
-	opacity: 87%;
+	line-height: 100px;
+	opacity: 87%;	
 }
 
-body {
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 24px;
-	opacity: 87%;
-}
-
-
-body > p {
+.Title p {
 	font-size: 24px;
 	font-weight: 300;
 	line-height: 32px;
-	opacity: 45%;	
+	opacity: 45%;
+
 }
 
 
+
+
+/* LAYOUT */
 .content {
+	height: 100%;
 	background-color: #dddddd;
 	padding: 10px;
-	min-height: 85%;
 }
 
 .page-header{
 	background-color:white;
-
+	height: 30%;
 }
 
 .footer-wrap{
