@@ -1,6 +1,6 @@
 /*
 Theme Name: TAGlab Theme
-Author: Aaron U, Issey Roquet & Sean Doughty
+Author: TAGlab
 Author URI: https://wordpress.org/
 Description: TAGlabs Website NEW theme
 License: GNU General Public License v2 or later
@@ -8,31 +8,54 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: black, blue, gray, pink, purple, white, yellow, dark, light, two-columns, left-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
 
 */
+
+/* COLOUR GUIDE 
+
+White: #FFF;
+Black: #000;
+Grey: #f2f2f2; *used for backgrounds*
+Medium Grey: #cccccc; *potentially used for buttons* *still testing*
+
+Blue: #0082d4;
+Red: #ff6a63;
+
+Footer Blue: #263542;
+
+*/
+
+
+
+/* TYPOGRAPHY */
+
 h1 {
 	font-size: 20px;
 	font-weight: 400;
 	opacity: 100%;
-}
+} /*Font description*/
+
 
 h1.bold {
 	font-size: 20px;
 	font-weight: 600;
 	opacity: 100%;
-}
+} /*Font description*/
+
 
 h1 > p{
 	font-size: 45px;
 	font-weight: 300;
 	line-height: 48px;
 	opacity: 87%;
-}
+} /*Font description*/
+
 
 body {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 24px;
 	opacity: 87%;
-}
+} /*Font description*/
+
 
 
 body > p {
@@ -40,9 +63,10 @@ body > p {
 	font-weight: 300;
 	line-height: 32px;
 	opacity: 45%;	
-}
+} /*Font description*/
 
 
+/* LAYOUT */
 .content {
 	height: 100%;
 	background-color: #dddddd;
