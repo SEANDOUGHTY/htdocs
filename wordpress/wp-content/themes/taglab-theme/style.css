@@ -65,14 +65,13 @@ box-shadow: 0 0 9px rgba(0,0,0,.12)
 
 /* LAYOUT */
 .content {
-	height: 100%;
 	background-color: #dddddd;
 	padding: 10px;
+	min-height: 85%;
 }
 
 .page-header{
 	background-color:white;
-	height: 30%;
 }
 
 .footer-wrap{
