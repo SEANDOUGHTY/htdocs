@@ -24,6 +24,17 @@ Footer Blue: #263542;
 */
 
 
+/* SHADOW GUIDE 
+
+Just for the navigation bar
+box-shadow: 0 0 9px rgba(0,0,0,.12)
+
+For all other boxes (mainly card elements)
+box-shadow: 0 0 9px rgba(0,0,0,.12)
+
+*/
+
+
 
 /* TYPOGRAPHY */
 
