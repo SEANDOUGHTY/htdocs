@@ -13,7 +13,7 @@ function register_theme_menus(){
 add_action('init','register_theme_menus');
 
 function wp_theme_styles() {
-	wp_enqueue_style('foundation_css', get_template_directory_uri() . '/css/foundation.min.css');
+	wp_enqueue_style('foundation_css', get_template_directory_uri() . '/css/foundation.css');
 	wp_enqueue_style('fonts_css', 'http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,700italic,800,800italic,400italic,300,300italic');
 	wp_enqueue_style('main_css', get_template_directory_uri() . '/style.css');
 }
