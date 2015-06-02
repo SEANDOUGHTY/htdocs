@@ -24,12 +24,104 @@ Tags: black, blue, gray, pink, purple, white, yellow, dark, light, two-columns, 
 .Title p {
 	font-size: 24px;
 	font-weight: 300;
+	margin-left: 7%;
+	margin-right: 7%;
 	line-height: 32px;
 	opacity: 45%;
 
 }
 
+.People {
+	padding: 25px;
+	background-color: #F3F5F4;
+	min-height: 800px;
+	margin-bottom: -40px;
+}
 
+.Person {
+	text-align: left;
+	background-color: white;
+	font-family: Open Sans;
+	padding-bottom: 15px;
+	min-height:700px;
+}
+
+.Person p {
+	margin: 20px;
+}
+
+.Person p:nth-child(1) {
+	margin: 0px;
+}
+
+.Person img {
+	min-width: 100%;
+}
+
+.Person p:nth-child(2) {
+	font-size: 20px;
+	font-weight: 400;
+	line-height:18px;
+}
+
+.Person p:nth-child(3) {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 18px;
+	color: #0082d4;
+	margin-bottom: -20px;
+}
+
+.Person p:nth-child(4) {
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #808080;
+}
+
+.Person p:nth-child(5) {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	opacity: 87%;
+}
+
+
+.Projects {
+	padding: 25px;
+	background-color: #F3F5F4;
+	margin-bottom: -40px;
+}
+
+.Project {
+	text-align: center;
+	background-color: white;
+	font-family: Open Sans;
+	padding-bottom: 10px;
+}
+
+.Project img {
+	min-width: 100%;
+}
+
+.Project p:nth-child(2) {
+	font-size: 20px;
+	font-weight: 600;
+	line-height:18px;
+}
+
+.Project p:nth-child(3) {
+
+}
+
+
+.Project p:nth-child(4) {
+	background-color: #CCCCCC;
+	color: white;
+	margin-left: 220px;
+	margin-right: 220px;
+	line-height: 35px;
+}
 
 .content {
 	background-color: #dddddd;
@@ -59,4 +151,13 @@ Tags: black, blue, gray, pink, purple, white, yellow, dark, light, two-columns, 
 .footer-text{
 	color: white;
 	font-weight:400; 
+}
+
+.row {
+	min-width: 100%;
+	background-color: white;
+}
+
+.content {
+	background-color: #F3F5F4;
 }

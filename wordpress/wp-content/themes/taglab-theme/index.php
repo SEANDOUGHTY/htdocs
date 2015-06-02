@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="content">
 	<section class='row'>
-		<div class='small-9 small-centered columns page-header'><center>
+		<div class='small-12 small-centered columns page-header'><center>
 			<div id="primary" class="content-area">
 				<div id="content" class="site-content" role="main">
 					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
