@@ -169,10 +169,35 @@ For all other boxes (mainly card elements)
 	line-height: 35px;
 }
 
-.content {
-	background-color: #FFFFFF;
-	padding: 10px;
-	min-height: 85%;
+.home-header {
+	background-color: #0082d4;
+	height: 75%;
+	padding: 8em 10em;
+	margin-bottom: 5em;
+	min-width: 100%;
+}
+
+	h1 span {
+		color: #FFF;
+		font-size: 8rem;
+	}
+
+	h2 span {
+		color: #FFF;
+	}
+
+.paragraph {
+	text-align: center;
+	margin: 5em;
+}
+
+.paragraph-title {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.paragraph-content {
+	opacity: .5;
 }
 
 .page-header{
@@ -202,8 +227,4 @@ For all other boxes (mainly card elements)
 .row {
 	min-width: 100%;
 	background-color: white;
-}
-
-.content {
-	background-color: #F3F5F4;
 }
